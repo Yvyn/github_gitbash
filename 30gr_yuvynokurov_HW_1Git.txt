@@ -1,0 +1,368 @@
+Telegram: yuvynokurov
+Termial. HW_3
+
+ 1. Создайте текстоовый файл как в первом ДЗ по Terminal.
+ 2. Сценарий перенесите в этот файл.
+ 3. На против каждого действия - напишите команду в GitBash
+
+
+JSON
+ 4. Создать внешний репозиторий c названием JSON.
+создал на сайте 
+
+
+ 5. Клонировать репозиторий JSON на локальный компьютер.
+
+git clone https://github.com/Yvyn/Json.git
+
+
+
+ 6. Внутри локального JSON создать файл “new.json”.
+cd json
+touch new.json
+
+
+ 7. Добавить файл под гит.
+
+git add .
+
+ 8. Закоммитить файл.
+ git  commit -m 'my ferst commit'
+
+ 9. Отправить файл на внешний GitHub репозиторий.
+git push
+
+ 10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
+cat >> new.json
+{
+    "Name" : "Vynokurov Yurii Viktorovich",
+    "age" : 25,
+    "number of pets" : 1,
+    "future desired salary" : 30000
+ }
+ 
+ctrl+c
+
+ 11. Отправить изменения на внешний репозиторий.
+git add .
+git  commit -m 'json text'
+git push
+
+
+ 12. Создать файл preferences.json
+touch preferences.json
+
+ 13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
+$ cat >> preferences.json
+{
+     Favorite Movie: Back to the Future
+     "favorite series": "Alf",
+     "favorite food": "potato"
+     "favorite season": "winter",
+     "side you would like to visit": "korea"
+}
+
+ctrl+c
+
+ 14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
+touch sklls.json
+$ cat >> sklls.json
+{
+      "sklls": [
+        "json reading",
+        "json writing ",
+        "json analysis"
+      ]
+}
+ctrl+c
+ 15. Отправить сразу 2 файла на внешний репозиторий.
+git add .
+git  commit -m 'skils and pref'
+git push
+
+ 16. На веб интерфейсе создать файл bug_report.json.
+add file    create new file 
+
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+Comite new file
+
+
+ 18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
+{
+   "Telegram nickname": "yuvynokurov",
+    "Bug_id": 24,
+  "Title": "The application does not respond to changing display orientation.",
+
+    "Severity": "Minor",
+    "Priority": "Low",
+    "Environment": "Redmi note 7 Android 10 MIUA Global 12.5.3.0",
+    "Precondition":   [
+        "1) Install the AndroidGridTest application.",
+        "2) Allow to change display orientation in the smartphone",
+        "3) Open the AndroidGridTest application."
+      ]
+  
+  
+ 
+    "STR": "1) Change device orientation",
+    "AR": " Display orientation does not change",
+    "ER": "The application adapts to the display orientation"
+   
+}
+
+
+ 19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+Commit changes
+
+ 20. Синхронизировать внешний и локальный репозиторий JSON
+git pull
+
+
+
+
+
+
+XML
+ 21. Создать внешний репозиторий c названием XML.
+создал на сайте 
+
+ 22. Клонировать репозиторий XML на локальный компьютер.
+ git clone https://github.com/Yvyn/XML.git
+
+ 23. Внутри локального XML создать файл “new.xml”.
+cd xml
+touch new.xml
+
+ 24. Добавить файл под гит.
+git add .
+
+ 25. Закоммитить файл.
+ git commit -m "ferst xml commit"
+
+ 26. Отправить файл на внешний GitHub репозиторий.
+ git push
+
+ 27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
+cat >> new.json
+
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<info>
+
+    <Name>yuvynokurov</Name>
+    <age>25</age>
+    <petsnumber>1</petsnumber>
+
+    <futuresalary>100000</Severfuturesalaryity>
+
+  </info>
+
+ 
+ctrl+c
+
+ 28. Отправить изменения на внешний репозиторий.
+$ git add .
+$ git commit -m "new info"
+ git push
+
+ 29. Создать файл preferences.xml
+touch preferences.xml
+
+ 30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
+
+cat >> preferences.xml
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<Favorite>
+
+    <movie>back to the futurenokurov</movie>
+    <TVshow>ALF</TVshow>
+    <food>potato</food>
+    <season>winter</season>
+    <country>Korea</country>
+
+  </Favorite>
+
+
+ctrl+c
+
+ 31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
+touch sklls.xml
+
+
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<info>
+
+    <sklls>XML reading </sklls>
+    <sklls> XML writing</sklls>
+    <sklls> XML analysis</sklls>
+
+
+  </info>
+
+
+ctrl+c
+
+
+ 32. Сделать коммит в одну строку.
+
+git add . ; git commit -m "my skills"
+
+
+ 33. Отправить сразу 2 файла на внешний репозиторий.
+git push
+
+ 34. На веб интерфейсе создать файл bug_report.xml.
+add file    create new file 
+
+ 35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+Comite new file
+
+ 36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML
+<?xml version="1.0" encoding="utf-8"?>
+
+
+  <info>
+
+    <nickname>yuvynokurov</nickname>
+    <id>28</id>
+    <Title>Lost access to content outside of margins in split screen.</Title>
+
+    <Severity>Major</Severity>
+    <Priority>Medium</Priority>
+
+    <Environment>Redmi note 7 Android 10 MIUA Global 12.5.3.0</Environment>
+
+   <Precondition> 1) Install the AndroidGridTest application.
+2) Open the AndroidGridTest application.</Precondition>
+
+   <STR>  1) Enable split screen 2) Scroll through the application </STR>
+   <AR>Lost access to content outside the fields.</AR>
+   <ER>Сan scroll and access the rest of the functionality  </ER>
+   <Attachments>https://drive.google.com/drive/u/1/folders/1Q5pTWchGHKveVHgYjOMeXui_3OY-9tnj</Attachments>
+  
+
+
+  </info>
+
+ 37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+Commit changes
+
+ 38. Синхронизировать внешний и локальный репозиторий XML
+git pull
+
+
+
+ 1. Создать внешний репозиторий c названием TXT.
+создал на сайте 
+
+ 2. Клонировать репозиторий TXT на локальный компьютер.
+git clone https://github.com/Yvyn/TXT.git
+
+ 3. Внутри локального TXT создать файл “new.txt”.
+ cd txt
+ touch new.txt
+
+ 4. Добавить файл под гит.
+git add .
+
+ 5. Закоммитить файл.
+git commit -m "ferst txt commit"
+
+ 6. Отправить файл на внешний GitHub репозиторий.
+git push
+
+ 7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.
+cat >> new.txt
+
+Full name Vynokurov Yuri Miktorovich
+age 25
+number of pets 1
+future desired salary 1000000
+
+ctrl+c 
+8. Отправить изменения на внешний репозиторий.
+git add .
+git commit -m "my informaton"
+git push
+
+
+ 9. Создать файл preferences.txt
+touch preferences.txt
+
+ 10. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT.
+
+cat >> preferences.txt
+Favorite Movie: Back to the Future
+favorite series - Alf
+favorite food is potatoes
+favorite season - winter
+side you would like to visit - Korea
+ctrl+c 
+
+ 11. Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT
+touch sklls.txt
+
+ cat >> sklls.txt
+Skills
+creation
+redaction
+analysis txt
+
+ctrl+c 
+
+
+ 12. Сделать коммит в одну строку.
+ git add .; git commit -m "my sklls"
+
+ 13. Отправить сразу 2 файла на внешний репозиторий.
+$ git push
+
+ 14. На веб интерфейсе создать файл bug_report.txt.
+add file    create new file 
+ 15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+Comite new file
+ 16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT.
+
+Telegram nickname: yuvynokurov
+Bug_id:  28
+Title:  Lost access to content outside of margins in split screen.
+
+Severity: Major
+Priority:  Medium
+
+Environment: 1)Redmi note 7 Android 10 MIUA Global 12.5.3.0
+             
+Precondition: 
+1) Install the AndroidGridTest application.
+2) Open the AndroidGridTest application.
+
+STR:    
+ 
+ 1) Enable split screen
+ 2) Scroll through the application
+
+
+AR:                
+ Lost access to content outside the fields.
+
+ER:    
+Сan scroll and access the rest of the functionality             
+
+Attachments: 
+https://drive.google.com/drive/u/1/folders/1Q5pTWchGHKveVHgYjOMeXui_3OY-9tnj
+
+
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+Commit changes
+
+ 18. Синхронизировать внешний и локальный репозиторий TXT
+git pull
+
+
+
+
