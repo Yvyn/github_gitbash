@@ -140,8 +140,8 @@ grep -r second ../
 grep -v second
 
  32. Найти только название и путь к файлам где нет комбинации “second”
-grep -lwv second (по всем деректориям)
-grep -lrvw second 
+grep -Lw second (по всем деректориям)
+grep -Lrw second 
 
 
  33. Вывести в терминал 4 последних строк любого текстового файла
