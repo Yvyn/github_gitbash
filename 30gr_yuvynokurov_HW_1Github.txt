@@ -64,11 +64,11 @@ $ cat >> preferences.json
 
 ctrl+c
 
- 14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
-touch sklls.json
-$ cat >> sklls.json
+ 14. Создать файл skills.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
+touch skills.json
+$ cat >> skills.json
 {
-      "sklls": [
+      "skills": [
         "json reading",
         "json writing ",
         "json analysis"
@@ -188,7 +188,7 @@ cat >> preferences.xml
 
 ctrl+c
 
- 31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
+ 31. Создать файл skills.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
 touch sklls.xml
 
 
@@ -197,9 +197,9 @@ touch sklls.xml
 
 <info>
 
-    <sklls>XML reading </sklls>
-    <sklls> XML writing</sklls>
-    <sklls> XML analysis</sklls>
+    <skills>XML reading </skills>
+    <skills> XML writing</skills>
+    <skills> XML analysis</skills>
 
 
   </info>
@@ -304,10 +304,10 @@ favorite season - winter
 side you would like to visit - Korea
 ctrl+c 
 
- 11. Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT
+ 11. Создать файл skills.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT
 touch sklls.txt
 
- cat >> sklls.txt
+ cat >> skills.txt
 Skills
 creation
 redaction
